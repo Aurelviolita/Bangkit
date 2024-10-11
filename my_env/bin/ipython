@@ -1,4 +1,4 @@
-#!/home/cheol/Bangkit/my_env/bin/python
+#!/home/cheol/Bangkit/my_env/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
