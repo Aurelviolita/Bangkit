@@ -1,11 +1,14 @@
 # Bike Rentals Dashboard - Final Project🚴🏻‍♀️
 This is my final project for the course "Belajar Analisis Data Dengan Python" from Dicoding to make analysis and build a dashboard from the bike sharing dataset.
 
-## Getting Started
-'''
-pip install python3
-pip install numpy seaborn matplotlib pandas
-'''
+## Setup Environment - Shell/Terminal
+```
+mkdir Bangkit
+cd Bangkit
+pipenv install
+pipenv shell
+pip install -r requirements.txt
+```
 
 ## Download and Run
 `Proyek_Analisis_Data.ipynb`
@@ -16,5 +19,7 @@ pip install numpy seaborn matplotlib pandas
 5. Connect to hosted runtime
 6. Lastly, run the code cells
 
-`dashboard_bike.py`
-1. Open this project [here](https://bangkit-nffpajnau952ssfqegwdh3.streamlit.app/))
+## Run steamlit app
+```
+streamlit run dashboard.py
+```
